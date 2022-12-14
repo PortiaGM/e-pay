@@ -1,0 +1,43 @@
+h1 {
+    font-size: 1.125rem;
+}
+h2 {
+    font-size: 0.75rem;
+}
+.main-container, .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.icons {
+    flex-flow: row wrap;
+}
+.container {
+    background-color: var(--clr);
+    flex: 1;
+    flex-flow: column wrap;
+    border-radius: 0.313rem;
+    margin: 0.313rem;
+    padding: 0.313rem;
+    min-width: 12.5rem;
+}
+.userInfo {
+    background-color: var(--clrForm);
+    position: fixed;
+    top: 5%;
+    height: 31.25rem;
+    width: 21.875rem;
+}
+.avatar {
+    padding: 3.75rem;
+}
+.avatarName {
+    color: var(--fontDark);
+    font-size: 1.25rem;
+    margin: 0.938rem 0;
+    text-transform: uppercase;
+}
+.editBtn {
+    width: 90%;
+}

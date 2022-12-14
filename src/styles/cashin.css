@@ -1,0 +1,64 @@
+.wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0 auto;
+  width: 350px;
+}
+.keypad {
+  border-radius: 10px;
+  background-color: var(--clrForm);
+  display: inline-block;
+  grid-template-columns: repeat(3,1fr);
+}
+.input [type="text"] {
+  height: 35px;
+  width: 240px;
+  border-radius: 10px;
+  background-color:#f6f7ea;
+  color:black;
+  text-align: center;
+  font-size: 13px;
+  border: none;
+  transition: all 0.5s;
+}
+.input [type="text"]:hover {
+  background-color:#e5e6df;
+  cursor: pointer;
+}
+.backbtn {
+  display: flex;
+  text-transform: uppercase;
+  height: 35px;
+  width: 100px;
+  padding: 0;
+}
+.btn {
+  font-size:12px;
+  width: 65px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 10px;
+  color: black;
+  cursor: pointer;
+  background:rgba(189,189,189,255);
+  border-style: hidden;
+  padding: 0;
+  text-transform: uppercase;
+}
+.input [type="text"], button {
+  font-weight: 600;
+}
+.red {
+  text-align: center;
+  background:red;
+  color: rgb(247, 239, 239);
+}
+.yellow {
+  background:yellow;
+  color: black;
+}
+.green {
+  
+  background:green;
+  color: rgb(255, 250, 250);
+}
