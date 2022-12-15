@@ -61,7 +61,7 @@ function Login() {
         )}
       </form>
       <p><Link to="/forgot-pass">Forgot Password?</Link></p>
-      <p>Don't have an account? <Link to="/register">Sign up</Link></p>
+      <p>Don't have an account? <Link to="/register">Register</Link></p>
     </div>
   );
 }
