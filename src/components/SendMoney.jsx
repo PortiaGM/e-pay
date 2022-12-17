@@ -1,14 +1,12 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./../styles/form.css";
 import Footer from "./Footer";
 
 function SendMoney() {
-    const navigate = useNavigate();
     const [amount, setRecipientAmount]   = useState("");
     const [recipientNo, setRecipientNo]        = useState("");
     const [error, setError]     = useState(false);
-    const backBtn = () => {navigate("./../home");}
     const handleSubmit  = (e) => {
         e.preventDefault();
         if(amount.length == 0 || recipientNo.length == 0) {
@@ -35,7 +33,6 @@ function SendMoney() {
     }
     return (
         <div className="pay-bill">
-            <button className="backbtn" onClick={backBtn}>Return</button>
             <div className="auth-form" id="pay-bills">
                 <h2 className="title">Send Money</h2>
                 <form onSubmit={handleSubmit}>
@@ -57,6 +54,7 @@ function SendMoney() {
                     />
                     <button type="submit">Send Money</button>
                 </form>
+                <p><Link to="./../home">Cancel</Link></p>
             </div>
             <Footer />
         </div>
