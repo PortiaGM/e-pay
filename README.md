@@ -1,5 +1,15 @@
 # E Pay
-This is our final project for C-PCIT9 - Systems Integration and Architecture subject at the University of the Assumption BSIT 3A.  
+C-PCIT9 - Systems Integration and Architecture
+University of the Assumption
+BSIT 3A
+
+Medina, Portia G.
+Canoza, Jonas M.
+Dizon, Genesis John L.
+Mercado, Reymark T.
+Sarmiento, Mark Christian E.
+Tumang, Mark Eugene H.
+Usi, Joshua B.
 
 
 ## Available Scripts
