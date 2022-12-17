@@ -5,7 +5,9 @@ University of the Assumption
 
 BSIT 3A
 
-Portia Medina, Jonas Canoza, Genesis John Dizon, Reymark Mercado, Mark Christian Sarmiento, Mark Eugene Tumang, Joshua Usi
+Portia Medina, Jonas Canoza, Genesis John Dizon, Reymark Mercado,
+
+Mark Christian Sarmiento, Mark Eugene Tumang, Joshua Usi
 
 ## Available Scripts
 
