@@ -1,5 +1,5 @@
 # E Pay
-This project includes login, registration, and sign up gateways. This also validates the user input and logs the data on the console. It also includes dashboard redirection and logout functionality (automatically logs out when you visit the login page).  
+This is our final project for C-PCIT9 - Systems Integration and Architecture subject at the University of the Assumption BSIT 3A.  
 
 
 ## Available Scripts
