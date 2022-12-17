@@ -1,5 +1,7 @@
 # E Pay
-C-PCIT9 - Systems Integration and Architecture | University of the Assumption | BSIT 3A
+C-PCIT9 - Systems Integration and Architecture
+
+University of the Assumption | BSIT 3A
 
 Portia Medina, Jonas Canoza, Genesis John Dizon, Reymark Mercado, Mark Christian Sarmiento, Mark Eugene Tumang, Joshua Usi
 
