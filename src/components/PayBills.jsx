@@ -1,15 +1,12 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import "./../styles/form.css";
 import Footer from "./Footer";
 
 function PayBills() {
-    const navigate = useNavigate();
     const [amount, setAmount]               = useState("");
     const [accountnumber, setAccountNo]     = useState("");
     const [accountname, setAccountName]     = useState("");
     const [error, setError]                 = useState(false);
-    const backBtn = () => {navigate("./../home");}
     const handleSubmit  = (e) => {
         e.preventDefault();
         if(amount.length == 0 || accountnumber.length == 0 || accountname.length == 0) {
@@ -38,7 +35,6 @@ function PayBills() {
     }
     return (
         <div className="pay-bill">
-            <button className="backbtn" onClick={backBtn}>Return</button>
             <div className="auth-form" id="pay-bills">
                 <h2 className="title">Pay Bills</h2>
                 <form onSubmit={handleSubmit}>
@@ -68,6 +64,7 @@ function PayBills() {
                     />
                     <button type="submit">Pay Bill</button>
                 </form>
+                <p><Link to="./../home">Cancel</Link></p>
             </div>
             <Footer />
         </div>
